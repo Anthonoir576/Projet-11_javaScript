@@ -22,8 +22,8 @@ body {
 body #password-generator {
   padding: 2rem;
   margin: 0 auto;
-  width: 90%;
-  height: 70%;
+  width: 90vw;
+  height: 70vh;
   border-radius: 3px;
   box-shadow: 0 0 2px #1f1f1f;
   border: 3px solid #F44336;
@@ -40,7 +40,7 @@ body #password-generator #password-output {
 body #password-generator .range {
   justify-content: space-between;
   padding: 1rem 1rem 1rem 2.5rem;
-  margin-top: 5rem;
+  margin-top: 9vh;
 }
 body #password-generator .range input[type=range] {
   -webkit-appearance: none;
@@ -81,7 +81,7 @@ body #password-generator .range #display-password-length {
   padding-top: 10px;
 }
 body #password-generator .flex {
-  margin: 7rem 1rem 2rem;
+  margin: 10vh 1rem 2vh;
   display: flex;
   justify-content: space-between;
 }
@@ -113,7 +113,7 @@ body #password-generator button {
   background: #F44336;
   border: none;
   padding: 1rem 2rem;
-  margin: 6rem 0 0.5rem 0;
+  margin: 10vh 0 0.5rem 0;
   border-radius: 3px;
   box-shadow: 1px 1px 3px #1f1f1f;
   text-transform: uppercase;

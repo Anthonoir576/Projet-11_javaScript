@@ -32,8 +32,8 @@ body {
 
         padding: 2rem;
         margin: 0 auto;
-        width: 90%;
-        height: 70%;
+        width: 90vw;
+        height: 70vh;
         border-radius: 3px;
         box-shadow: 0 0 2px $main-color;
         border: 3px solid $snd-color;
@@ -54,7 +54,7 @@ body {
 
         justify-content: space-between;
         padding: 1rem 1rem 1rem 2.5rem;
-        margin-top: 5rem;
+        margin-top: 9vh;
 
         input[type="range"] {
 
@@ -107,7 +107,7 @@ body {
 
     .flex {
 
-        margin: 7rem 1rem 2rem;
+        margin: 10vh 1rem 2vh;
         display: flex;
         justify-content: space-between;
 
@@ -150,7 +150,7 @@ body {
         background: $snd-color;
         border: none;
         padding: 1rem 2rem;
-        margin: 6rem 0 .5rem 0;
+        margin: 10vh 0 .5rem 0;
         border-radius: 3px;
         box-shadow: 1px 1px 3px $main-color;
         text-transform: uppercase;
