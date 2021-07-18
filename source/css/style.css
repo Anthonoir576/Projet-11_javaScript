@@ -17,7 +17,7 @@ body {
   align-items: center;
   text-align: center;
   height: 100vh;
-  background: #f0f0f0;
+  background: url(../image/bg.jpg) no-repeat center/cover;
 }
 body #password-generator {
   padding: 2rem;
@@ -27,7 +27,7 @@ body #password-generator {
   border-radius: 3px;
   box-shadow: 0 0 2px #1f1f1f;
   border: 3px solid #F44336;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.842);
   position: relative;
   white-space: nowrap;
 }
